@@ -1,0 +1,9 @@
+.main {
+    width: 960px;
+    background: blueviolet;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+img {
+    height: 250px;
+}
