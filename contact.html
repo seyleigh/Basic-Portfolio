@@ -1,39 +1,47 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Contact Page</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    </head>
 
-    <body>
-            <header>
-                    <h1>Jensey Fifer</h1>
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">About</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+<head>
+    <title>Basic Portfolio</title>
+    <meta charset="utf-8">
+    <meta lang="en">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <h1 id="logo">Jensey Fifer</h1>
+            <ul>
+                <li class="about"><a href="index.html">About</a></li>
+                <li class="portfolio"><a href="portfolio.html">Portfolio</a></li>
+                <li class="contact"><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </div>
+    </header>
+
+    <section class="main">
+        <h2>Contact</h2>
+        <hr>
+
+        <div class="contact_form">
+          
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Jacqueline Hyde">
+          
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="example@gmail.com">
         
-                        </ul>
-                    </nav>
-                </header>
-            
-            <div class="contact-form">
-                    <form action="action_page.php">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="" style="height:200px"></textarea>
+          
+              <input type="submit" value="Send it?">
+          
+          </div>
+    </section>
 
-                            <label for="name">Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Jaqueline Hyde">
-                        
-                            <label for="email">Email</label>
-                            <input type="text" id="email" name="email" placeholder="example@gmail.com">
-                        
-                            <label for="message">Message</label>
-                            <textarea id="mesage" name="message" style="height:200px"></textarea>
-                        
-                            <input type="submit" value="Submit">
-                        
-                          </form>
-            </div>
-    </body>
+    <footer></footer>
+</body>
+
 </html>
